@@ -4,4 +4,26 @@
 
 body {
   font-family: "Plus Jakarta Sans", sans-serif;
+  color: var(--color-blackcurrant);
+}
+
+/*=============== VARIABLES CSS ===============*/
+:root {
+  /* === Color === */
+  --scampi: hsl(234, 25%, 52%);
+  --color-blackcurrant: hsl(233, 54%, 16%);
+  --manatee: hsl(232, 10%, 56%);
+  --violet-red: hsl(341, 92%, 62%);
+  --carnation-pink: hsl(341, 100%, 83%);
+  --white: white;
+  --gradient-a: linear-gradient(
+    352deg,
+    rgba(240, 42, 166, 1) 49%,
+    rgba(255, 111, 72, 1) 77%
+  );
+  --gradient-b: linear-gradient(
+    360deg,
+    rgba(240, 42, 166, 1) 10%,
+    rgba(72, 81, 255, 1) 77%
+  );
 }
