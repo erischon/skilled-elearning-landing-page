@@ -45,10 +45,13 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  position: relative;
 }
 
 .header--img {
-  background-color: blueviolet;
-  object-fit: cover;
-  width: 100%;
+  /* background-color: blueviolet; */
+  /* position: absolute; */
+  max-width: 400px;
+  top: -230px;
+  right: -300px;
 }
